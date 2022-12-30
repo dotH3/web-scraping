@@ -21,7 +21,7 @@ const freeGamesGet = async ({res=response})=>{
             // console.log(fs.readFileSync(fsName, "utf8"));
         }
     })
-    return res.json({'name':elements.html()});
+    return res.json({'game':elements.html()});
 }
 
 module.exports = {freeGamesGet}
